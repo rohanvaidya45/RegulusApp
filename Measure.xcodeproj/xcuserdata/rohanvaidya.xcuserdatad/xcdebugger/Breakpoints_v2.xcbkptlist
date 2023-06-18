@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5B033644-7E6B-4F4D-9CA8-8286722784EE"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CBA52E96-9AE3-4C7C-B842-6611B19A4A1C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Measure/Measure module/MeasureViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "MeasureViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "CBA52E96-9AE3-4C7C-B842-6611B19A4A1C - 40034347fb28ca8d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Measure.MeasureViewController.screenCenterPoint.getter : __C.CGPoint"
+                  moduleName = "Measure"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rohanvaidya/Desktop/Measure/Measure/Measure%20module/MeasureViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "188">
+               </Location>
+               <Location
+                  uuid = "CBA52E96-9AE3-4C7C-B842-6611B19A4A1C - c5db42502d2c350e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; __C.CGPoint in Measure.MeasureViewController.screenCenterPoint.getter : __C.CGPoint"
+                  moduleName = "Measure"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rohanvaidya/Desktop/Measure/Measure/Measure%20module/MeasureViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "CBA52E96-9AE3-4C7C-B842-6611B19A4A1C - b5ed92c8b787ee59"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Measure.MeasureViewController.screenCenterPoint.setter : __C.CGPoint"
+                  moduleName = "Measure"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rohanvaidya/Desktop/Measure/Measure/Measure%20module/MeasureViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "128">
+               </Location>
+               <Location
+                  uuid = "CBA52E96-9AE3-4C7C-B842-6611B19A4A1C - 209ac9d7c7038058"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Measure.MeasureViewController.screenCenterPoint.modify : __C.CGPoint"
+                  moduleName = "Measure"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rohanvaidya/Desktop/Measure/Measure/Measure%20module/MeasureViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "CBA52E96-9AE3-4C7C-B842-6611B19A4A1C - b10d48c22ab4f940"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Measure.MeasureViewController.screenCenterPoint.modify : __C.CGPoint with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Measure"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rohanvaidya/Desktop/Measure/Measure/Measure%20module/MeasureViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "CBA52E96-9AE3-4C7C-B842-6611B19A4A1C - 7778be99364b5b3f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Measure.MeasureViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Measure.MeasureViewController"
+                  moduleName = "Measure"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rohanvaidya/Desktop/Measure/Measure/Measure%20module/MeasureViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "416">
+               </Location>
+               <Location
+                  uuid = "CBA52E96-9AE3-4C7C-B842-6611B19A4A1C - 75bfd2bb101e373"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Measure.MeasureViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Measure.MeasureViewController&gt;"
+                  moduleName = "Measure"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/rohanvaidya/Desktop/Measure/Measure/Measure%20module/MeasureViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "396">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

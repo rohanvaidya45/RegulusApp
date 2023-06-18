@@ -1,4 +1,3 @@
-# Measure
-iOS App that replicates measuring functionality of the iOS 12 Measure App. The App is written in Swift 4 and makes use of ARKit to achieve the same.
-
-![](https://github.com/adithyabhat/Measure/blob/master/Gif/measure.gif)
+# RegulusApp
+App for Regulus to perform height verification and send corresponding data to be verified by AI models running in Anyscale.
+Measure module from https://github.com/adithyabhat/Measure proved helpful in building the ARKit logic so that we could focus on the AI!

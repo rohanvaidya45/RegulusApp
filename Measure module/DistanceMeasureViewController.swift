@@ -106,15 +106,6 @@ class DistanceMeasureViewController: MeasureViewController {
         }
     }
     
-    @IBAction func saveScreenhot(_ sender: UIButton){
-
-           //1. Create A Snapshot
-           let snapShot = sceneView.snapshot()
-
-           //2. Save It The Photos Album
-           
-    }
-    
 }
 
 extension DistanceMeasureViewController: ARSCNViewDelegate {

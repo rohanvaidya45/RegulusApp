@@ -7,17 +7,8 @@
 
 import UIKit
 import ARKit
-import Foundation
 
 class MeasureViewController: UIViewController {
-    
-    struct Post:Codable{
-        let userId: Int
-        let id: Int
-        let title: String
-        let body: String
-        
-    }
 
     let lineWidth = CGFloat(0.003)
     let nodeRadius = CGFloat(0.015)
@@ -27,7 +18,6 @@ class MeasureViewController: UIViewController {
     
     @IBOutlet weak var centerPointImageView: UIImageView!
     @IBOutlet weak var sceneView: MeasureSCNView!
-    @IBOutlet weak var verifyButton: LoaderButton!
     
     lazy var screenCenterPoint: CGPoint = {
         return centerPointImageView.center
@@ -47,42 +37,7 @@ class MeasureViewController: UIViewController {
         return true
     }
     
-    @IBAction func verify(_ sender: LoaderButton) {
-        var image = sceneView.snapshot()
-        var randNum = 1 - Double.random(in: 0..<1)
-        
-        sender.isLoading = true
-            // simulate sending request
-        DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(2)) {
-            sender.isLoading = false
-            
-        }
-        verifyButton.setTitle("Verified!", for: .normal)
-        verifyButton.tintColor = UIColor.green
-        
-        
-        print(callAPI())
-    }
-    
-    
     //MARK: - Helper methods
-    
-    func callAPI(){
-        guard let url = URL(string: "https://jsonplaceholder.typicode.com/posts/1") else{
-            return
-        }
-
-
-        let task = URLSession.shared.dataTask(with: url){
-            data, response, error in
-            
-            if let data = data, let string = String(data: data, encoding: .utf8){
-                print(string)
-            }
-        }
-
-        task.resume()
-    }
     
     func removeNodes(fromNodeList nodes: NSMutableArray) {
         for node in nodes {
@@ -129,65 +84,4 @@ class MeasureViewController: UIViewController {
         }
         
     }
-    
 }
-
-class LoaderButton: UIButton {
-    // 2
-    var spinner = UIActivityIndicatorView()
-    // 3
-    var isLoading = false {
-        didSet {
-            // whenever `isLoading` state is changed, update the view
-            updateView()
-        }
-    }
-    
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-        // 4
-        setupView()
-    }
-    
-    required init?(coder: NSCoder) {
-        super.init(coder: coder)
-        setupView()
-    }
-    
-    func setupView() {
-        // 5
-        spinner.hidesWhenStopped = true
-        // to change spinner color
-        spinner.color = .white
-        // default style
-        spinner.style = .medium
-        
-        // 6
-        // add as button subview
-        addSubview(spinner)
-        // set constraints to always in the middle of button
-        spinner.translatesAutoresizingMaskIntoConstraints = false
-        NSLayoutConstraint.activate([
-            spinner.centerXAnchor.constraint(equalTo: self.centerXAnchor),
-            spinner.centerYAnchor.constraint(equalTo: self.centerYAnchor)
-        ])
-    }
-    
-    // 7
-    func updateView() {
-        if isLoading {
-            spinner.startAnimating()
-            titleLabel?.alpha = 0
-            imageView?.alpha = 0
-            // to prevent multiple click while in process
-            isEnabled = false
-        } else {
-            spinner.stopAnimating()
-            titleLabel?.alpha = 1
-            imageView?.alpha = 0
-            isEnabled = true
-        }
-    }
-}
-
-
